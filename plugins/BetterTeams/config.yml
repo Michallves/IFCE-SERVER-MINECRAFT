@@ -505,7 +505,7 @@ collide: true
 # - If a member is not in the team, this feature will have no effect 
 # 
 # Possible values: [true, false]
-privateDeath: true
+privateDeath: false
 
 # This is used to determine if everyone can view a players nametag or if only that players team can
 # - If you have a custom death message plugin this may not work, use at your own risk
@@ -513,7 +513,7 @@ privateDeath: true
 # - If a member is not in the team, this feature will have no effect 
 # 
 # Possible values: [true, false]
-privateName: true
+privateName: false
 
 # This is used to determine if players see invisible members of their team as semi-transparent or as totally invisible
 # - If this is set to false, invisibility will work like normal
