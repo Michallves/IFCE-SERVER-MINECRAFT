@@ -42,7 +42,7 @@
 # zh_tw - Traditional Chinese
 # tr    - Turkish
 # vi    - Vietnamese
-language: en
+language: pt
 
 # Determines how team data is stored
 # Possible values: 
@@ -271,7 +271,7 @@ allowPassword: true
 # - If this is set to false, allies will not be able to open claimed chests
 # 
 # Possible values: [true, false]
-allowAllyChests: true
+allowAllyChests: false
 
 # This is the number of seconds an invite lasts
 # - If this is set to 0, invites will expire immeidatly (dont do this)
@@ -505,7 +505,7 @@ collide: true
 # - If a member is not in the team, this feature will have no effect 
 # 
 # Possible values: [true, false]
-privateDeath: false
+privateDeath: true
 
 # This is used to determine if everyone can view a players nametag or if only that players team can
 # - If you have a custom death message plugin this may not work, use at your own risk
@@ -513,7 +513,7 @@ privateDeath: false
 # - If a member is not in the team, this feature will have no effect 
 # 
 # Possible values: [true, false]
-privateName: false
+privateName: true
 
 # This is used to determine if players see invisible members of their team as semi-transparent or as totally invisible
 # - If this is set to false, invisibility will work like normal
