@@ -1,189 +1,144 @@
-[21:47:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:47:22] [ServerMain/INFO]: Loaded 1174 recipes
-[21:47:23] [ServerMain/INFO]: Loaded 1271 advancements
-[21:47:23] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[21:47:23] [Server thread/INFO]: Loading properties
-[21:47:23] [Server thread/INFO]: This server is running Paper version git-Paper-436 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 850b736)
-[21:47:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:47:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:47:24] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:33:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:33:30] [ServerMain/INFO]: Loaded 1174 recipes
+[16:33:31] [ServerMain/INFO]: Loaded 1271 advancements
+[16:33:31] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:33:31] [Server thread/INFO]: Loading properties
+[16:33:31] [Server thread/INFO]: This server is running Paper version git-Paper-436 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 850b736)
+[16:33:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:33:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:33:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:47:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:47:25] [Server thread/INFO]: Default game type: SURVIVAL
-[21:47:25] [Server thread/INFO]: Generating keypair
-[21:47:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:47:25] [Server thread/INFO]: Using default channel type
-[21:47:25] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:47:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:47:25] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:47:29] [Server thread/WARN]: Legacy plugin FarmProtect v1.9.0 does not specify an api-version.
-[21:47:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[21:47:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5e3f7e67]
-[21:47:30] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[21:47:30] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
-[21:47:30] [Server thread/INFO]: [FarmProtect] Loading server plugin FarmProtect v1.9.0
-[21:47:30] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.6-899
-[21:47:30] [Server thread/INFO]: [dynmap] version=git-Paper-436 (MC: 1.20.4)
-[21:47:30] [Server thread/INFO]: [dynmap] Mod Support API available
-[21:47:30] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.9.0
-[21:47:30] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[21:47:30] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:47:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:47:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[21:47:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:47:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:47:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[21:47:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:47:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:47:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:47:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:47:31] [Server thread/INFO]: Preparing level "world"
-[21:47:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:47:35] [Server thread/INFO]: Time elapsed: 2449 ms
-[21:47:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:47:35] [Server thread/INFO]: Time elapsed: 45 ms
-[21:47:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:47:35] [Server thread/INFO]: Time elapsed: 31 ms
-[21:47:35] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[21:47:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[21:47:36] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[21:47:36] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[21:47:36] [Server thread/INFO]: [FarmProtect] Enabling FarmProtect v1.9.0*
-[21:47:38] [Thread-9/INFO]: [FarmProtect] About to download a new update: FarmProtect v1.9.0
-[21:47:38] [Thread-9/INFO]: [FarmProtect] Downloading update: 40% of 42920 bytes.
-[21:47:38] [Thread-9/INFO]: [FarmProtect] Downloading update: 50% of 42920 bytes.
-[21:47:38] [Thread-9/INFO]: [FarmProtect] Downloading update: 90% of 42920 bytes.
-[21:47:38] [Thread-9/INFO]: [FarmProtect] Downloading update: 100% of 42920 bytes.
-[21:47:38] [Thread-9/INFO]: [FarmProtect] Finished updating.
-[21:47:38] [Server thread/INFO]: [FarmProtect] Version 1.9.0 by jacklin213 has been Enabled!
-[21:47:38] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-899
-[21:47:38] [Server thread/ERROR]: Error occurred while enabling dynmap v3.6-899 (Is it up to date?)
-java.lang.NoSuchFieldError: o
-	at org.dynmap.bukkit.helper.v120.BukkitVersionHelperSpigot120.initializeBlockStates(BukkitVersionHelperSpigot120.java:159) ~[Dynmap-3.6-spigot.jar:?]
-	at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:933) ~[Dynmap-3.6-spigot.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188) ~[paper-1.20.4.jar:git-Paper-436]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-436]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.4.jar:git-Paper-436]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:309) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-436]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[21:47:38] [Server thread/INFO]: [dynmap] Disabling dynmap v3.6-899
-[21:47:38] [Server thread/ERROR]: Error occurred while disabling dynmap v3.6-899
-java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
-	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.6-spigot.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:290) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:223) ~[paper-1.20.4.jar:git-Paper-436]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.4.jar:git-Paper-436]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:192) ~[paper-1.20.4.jar:git-Paper-436]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.4.jar:git-Paper-436]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.20.4.jar:git-Paper-436]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:309) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-436]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-436]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[21:47:38] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.9.0
-[21:47:38] [Server thread/INFO]: [BetterTeams] Checking if the file pt.yml is up to date
-[21:47:38] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:47:38] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[21:47:38] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:47:38] [Server thread/INFO]: [BetterTeams] ==================================================================
-[21:47:38] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
-[21:47:38] [Server thread/INFO]: [BetterTeams] - invite.hover: &6Click to join &b{0}
-[21:47:38] [Server thread/INFO]: [BetterTeams] - info.online: &a
-[21:47:38] [Server thread/INFO]: [BetterTeams] - info.offline: &c
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.teleport.player.success: &6That player was teleported
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.ally.same: &4You cannot make a team an ally of itself
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.ally.already: &4Those teams are already allies
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.ally.success: &6Those two teams are now allies
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.neutral.same: &4You cannot enter the same team twice
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.neutral.not: &4Those teams are not allies
-[21:47:38] [Server thread/INFO]: [BetterTeams] - admin.neutral.success: &6Those teams are no longer allies
-[21:47:38] [Server thread/INFO]: [BetterTeams] - help.header: &6---- &bBetterTeams Help &6----
-[21:47:38] [Server thread/INFO]: [BetterTeams] - help.footer: &6---- &bPage {0}/{1} - /{2} help <page> &6----
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.delhome: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.echest: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.color: <color code>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.allychat: [message]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.description: [description]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.setwarp: <name> [password]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.title: [player/me] [title]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.bal: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.ban: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.promote: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.warps: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.top: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.ally: <team>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.rankup: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.leave: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.sethome: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.create: <name> [tag]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.rank: [team]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.join: <team>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.tag: [tag]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.disband: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.info: [team/player]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.delwarp: <name> [password]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.chest: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.neutral: <team>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.pvp: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.baltop: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.list: [page]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.home: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.help: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.unban: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.demote: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.kick: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.chat: [message]
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.name: <name>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.deposit: <amount>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.invite: <player>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.open: 
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.warp: <name>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - helpArg.withdraw: <amount>
-[21:47:38] [Server thread/INFO]: [BetterTeams] - command.teleport: teleport
-[21:47:38] [Server thread/INFO]: [BetterTeams] - command.money: money
-[21:47:38] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
-[21:47:38] [Server thread/INFO]: [BetterTeams] A file called `missingMessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
-[21:47:38] [Server thread/INFO]: [BetterTeams] ==================================================================
-[21:47:38] [Server thread/INFO]: Display team name config value: prefix
-[21:47:38] [Server thread/INFO]: Loading below name. Type: PREFIX
-[21:47:38] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@643e9e98
-[21:47:38] [Server thread/INFO]: Running delayed init tasks
-[21:47:38] [Server thread/INFO]: Done (15.032s)! For help, type "help"
-[21:47:38] [Server thread/INFO]: Timings Reset
-[21:49:10] [User Authenticator #0/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
-[21:49:10] [Server thread/INFO]: test joined the game
-[21:49:10] [Server thread/INFO]: test[/127.0.0.1:54378] logged in with entity id 241 at ([world]9.303793721362009, 72.0, -1.5714346198084037)
-[22:36:29] [Server thread/INFO]: test lost connection: Disconnected
-[22:36:29] [Server thread/INFO]: LAMPI test left the game
+[16:33:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[16:33:33] [Server thread/INFO]: Default game type: SURVIVAL
+[16:33:33] [Server thread/INFO]: Generating keypair
+[16:33:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:33:33] [Server thread/INFO]: Using default channel type
+[16:33:33] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:33:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:33:33] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[16:33:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@73967064]
+[16:33:35] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[16:33:35] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[16:33:35] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.9.0
+[16:33:35] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[16:33:35] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:33:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:33:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[16:33:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:33:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:33:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[16:33:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:33:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:33:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:33:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:33:37] [Server thread/INFO]: Preparing level "world"
+[16:33:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:33:42] [Server thread/INFO]: Time elapsed: 3389 ms
+[16:33:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:33:42] [Server thread/INFO]: Time elapsed: 101 ms
+[16:33:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:33:43] [Server thread/INFO]: Time elapsed: 56 ms
+[16:33:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:33:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:33:43] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:33:44] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:33:44] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:33:44] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:33:44] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:33:44] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:33:45] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[16:33:45] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.9.0
+[16:33:45] [Server thread/INFO]: [BetterTeams] Checking if the file pt.yml is up to date
+[16:33:45] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:33:45] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[16:33:45] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:33:45] [Server thread/INFO]: [BetterTeams] ==================================================================
+[16:33:45] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
+[16:33:45] [Server thread/INFO]: [BetterTeams] - invite.hover: &6Click to join &b{0}
+[16:33:45] [Server thread/INFO]: [BetterTeams] - info.online: &a
+[16:33:45] [Server thread/INFO]: [BetterTeams] - info.offline: &c
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.teleport.player.success: &6That player was teleported
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.ally.same: &4You cannot make a team an ally of itself
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.ally.already: &4Those teams are already allies
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.ally.success: &6Those two teams are now allies
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.neutral.same: &4You cannot enter the same team twice
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.neutral.not: &4Those teams are not allies
+[16:33:45] [Server thread/INFO]: [BetterTeams] - admin.neutral.success: &6Those teams are no longer allies
+[16:33:45] [Server thread/INFO]: [BetterTeams] - help.header: &6---- &bBetterTeams Help &6----
+[16:33:45] [Server thread/INFO]: [BetterTeams] - help.footer: &6---- &bPage {0}/{1} - /{2} help <page> &6----
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.delhome: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.echest: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.color: <color code>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.allychat: [message]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.description: [description]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.setwarp: <name> [password]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.title: [player/me] [title]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.bal: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.ban: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.promote: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.warps: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.top: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.ally: <team>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.rankup: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.leave: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.sethome: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.create: <name> [tag]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.rank: [team]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.join: <team>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.tag: [tag]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.disband: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.info: [team/player]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.delwarp: <name> [password]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.chest: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.neutral: <team>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.pvp: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.baltop: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.list: [page]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.home: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.help: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.unban: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.demote: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.kick: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.chat: [message]
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.name: <name>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.deposit: <amount>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.invite: <player>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.open: 
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.warp: <name>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - helpArg.withdraw: <amount>
+[16:33:45] [Server thread/INFO]: [BetterTeams] - command.teleport: teleport
+[16:33:45] [Server thread/INFO]: [BetterTeams] - command.money: money
+[16:33:45] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
+[16:33:45] [Server thread/INFO]: [BetterTeams] A file called `missingMessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
+[16:33:45] [Server thread/INFO]: [BetterTeams] ==================================================================
+[16:33:45] [Server thread/INFO]: Display team name config value: prefix
+[16:33:45] [Server thread/INFO]: Loading below name. Type: PREFIX
+[16:33:45] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@73f22f2c
+[16:33:45] [Server thread/INFO]: Running delayed init tasks
+[16:33:45] [Server thread/INFO]: Done (14.413s)! For help, type "help"
+[16:33:45] [Server thread/INFO]: Timings Reset
+[16:35:45] [User Authenticator #0/INFO]: UUID of player maicon159951 is fb22d903-83fc-3ca9-ba9c-42110a2db205
+[16:35:46] [Server thread/INFO]: DARM maicon159951 joined the game
+[16:35:46] [Server thread/INFO]: maicon159951[/127.0.0.1:50520] logged in with entity id 223 at ([world]-26.69999998807907, -59.0, 88.764473258211)
+[16:36:15] [Server thread/INFO]: maicon159951 issued server command: /team disband
+[16:36:19] [Server thread/INFO]: maicon159951 issued server command: /team disband
+[16:41:58] [Server thread/INFO]: maicon159951 issued server command: /team create DARM
+[16:42:05] [Server thread/INFO]: maicon159951 issued server command: /team color dark_blue
+[17:19:51] [Server thread/INFO]: DARM maicon159951 has made the advancement [Take Aim]
+[17:34:47] [Server thread/INFO]: maicon159951 lost connection: Disconnected
+[17:34:47] [Server thread/INFO]: DARM maicon159951 left the game

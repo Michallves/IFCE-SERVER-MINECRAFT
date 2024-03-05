@@ -3,10 +3,9 @@ description: ''
 open: false
 pvp: false
 home: ''
-color: '9'
+color: '1'
 chests: []
 players:
 - fb22d903-83fc-3ca9-ba9c-42110a2db205,OWNER
 level: 1
 tag: ''
-score: 0
