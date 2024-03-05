@@ -12,7 +12,7 @@ Minecraft: 1.24.4
 
 <h3> Licença </h3>
 
-<strong>Este texto está em negrito.</strong>
+<strong>Licença MIT</strong>
 
 
 
