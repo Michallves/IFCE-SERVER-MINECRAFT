@@ -13,6 +13,9 @@ jobs:
     - name: Instalar o Docker
       run: |
         sudo apt-get update
+        sudo apt-get remove -y containerd.io
+        sudo apt-get clean
+        sudo apt-get -f install
         sudo apt-get install -y docker.io
 
     - name: Verificar saídas do Docker
