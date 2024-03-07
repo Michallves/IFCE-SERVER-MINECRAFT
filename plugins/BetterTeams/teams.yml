@@ -1,7 +1,10 @@
 storageType: YAML
 teamNameLookup:
-- darm:93d6d39c-7433-4831-a8c4-91a9a6807d5e
+- safadas123:d5e40ae5-af73-4bc1-b74d-f4163d2a2a22
+- darm:9d61e31e-0895-48b9-a6f5-f9bb195ecda2
+- lampi:e82e455f-8c3e-4d6e-b39a-2379ec2fb411
 playerLookup:
-- fb22d903-83fc-3ca9-ba9c-42110a2db205:93d6d39c-7433-4831-a8c4-91a9a6807d5e
-- 530fa97a-357f-3c19-94d3-0c5c65c18fe8:93d6d39c-7433-4831-a8c4-91a9a6807d5e
+- fb22d903-83fc-3ca9-ba9c-42110a2db205:9d61e31e-0895-48b9-a6f5-f9bb195ecda2
+- 530fa97a-357f-3c19-94d3-0c5c65c18fe8:e82e455f-8c3e-4d6e-b39a-2379ec2fb411
+- 624ae120-ae33-3386-9859-8597effbd15d:d5e40ae5-af73-4bc1-b74d-f4163d2a2a22
 chestClaims: []
