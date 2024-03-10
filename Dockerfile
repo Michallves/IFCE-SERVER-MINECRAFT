@@ -11,7 +11,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64
 # Define a variável de ambiente PATH
 ENV PATH $JAVA_HOME/bin:$PATH
 
-WORKDIR /server
+WORKDIR /ifce-minecraft-server
 
 COPY . .
 
