@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
     - name: Checkout do repositório
       uses: actions/checkout@v2
       
@@ -46,5 +45,5 @@ jobs:
     - name: Enviar imagem para o Docker Hub
       run: docker push ${{ secrets.DOCKER_USERNAME }}/ifce-minecraft-server:latest
 
-    - name: Executar o contêiner do servidor Minecraft
-      run: docker run -d --restart=always -p 25565:25565 -p 24454:24454/udp --name ifce-minecraft-server ifce-minecraft-server
+    - name: Atualizar contêiner
+      run: docker stop ifce-minecraft-server && docker rm ifce-minecraft-server && docker run -d --restart=always -p 25565:25565 -p 24454:24454/udp --name ifce-minecraft-server ifce-minecraft-server

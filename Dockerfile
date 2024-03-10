@@ -15,4 +15,10 @@ WORKDIR /ifce-minecraft-server
 
 COPY . .
 
+# Expõe a porta 25565 TCP
+EXPOSE 25565/tcp
+# Expõe a porta 24454 UDP
+EXPOSE 24454/udp
+
 CMD ["java", "-Xmx8G", "-jar", "server.jar", "nogui"]
+
