@@ -29,6 +29,10 @@ username:
   filter-special-chars: true
   min-length: 3
   max-length: 16
+registration:
+  # Whether to accept new registrations.
+  enabled: true
+  disabled-message: '&cRegistrations are currently disabled!'
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
   enabled: false
@@ -47,4 +51,4 @@ login-message-delay: 10
 # Language for messages, check wiki for more info.
 # List: https://github.com/lenis0012/Translations
 # This setting should be set tot he file name without .json
-language: en_us
+language: pt_br
