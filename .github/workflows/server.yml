@@ -15,7 +15,7 @@ jobs:
         sudo apt-get update
         sudo apt-get remove -y containerd.io
         sudo apt-get clean
-        sudo apt-get -f install
+        sudo apt-get -f install -y
         sudo apt-get install -y docker.io
 
     - name: Verificar saídas do Docker
@@ -43,5 +43,4 @@ jobs:
       run: docker push ${{ secrets.DOCKER_USERNAME }}/ifce-minecraft-server:latest
 
     - name: Executar o contêiner do servidor Minecraft
-      run: docker run -d -p 25565:25565 -p 24454:24454/udp --name ifce-minecraft-server ifce-minecraft-server
-
+      run: docker run -d --restart=always -p 25565:25565 -p 24454:24454/udp --name ifce-minecraft-server ifce-minecraft-server
