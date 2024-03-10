@@ -28,7 +28,7 @@ jobs:
       run: docker rm ifce-minecraft-server || true
 
     - name: Construir a imagem do servidor Minecraft
-      run: docker build -t ifce-minecraft-server .
+      run: docker build -t ifce-minecraft-server ./app
 
     - name: Publicar a imagem no Docker Hub
       uses: docker/login-action@v1
