@@ -10,6 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v2
+      
+    - name: Instalar o Docker
+      run: |
+        sudo apt-get update
+        sudo apt-get remove -y containerd.io
+        sudo apt-get clean
+        sudo apt-get -f install -y
+        sudo apt-get install -y docker.io
+
     - name: Verificar saídas do Docker
       run: docker ps -a
 
@@ -22,5 +33,25 @@ jobs:
     - name: Construir a imagem do servidor Minecraft
       run: docker build -t ifce-minecraft-server .
 
+    - name: Publicar a imagem no Docker Hub
+      uses: docker/login-action@v1
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Tag da imagem
+      run: docker tag ifce-minecraft-server ${{ secrets.DOCKER_USERNAME }}/ifce-minecraft-server:latest
+
+    - name: Enviar imagem para o Docker Hub
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/ifce-minecraft-server:latest
+
+    - name: Parar e remover o contêiner existente (se existir)
+      run: |
+        if docker ps -a --format '{{.Names}}' | grep -q 'ifce-minecraft-server'; then
+          docker stop ifce-minecraft-server
+          docker rm ifce-minecraft-server
+        fi
+
     - name: Executar o contêiner do servidor Minecraft
-      run: docker run -d -p 25565:25565 --name ifce-minecraft-server ifce-minecraft-server
+      run: docker run -d --restart=always -p 25565:25565 -p 24454:24454/udp --name ifce-minecraft-server ifce-minecraft-server
+      

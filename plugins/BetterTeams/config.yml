@@ -101,7 +101,7 @@ chatPrefixes:
 # - Keep this value reasonable, as Java cannot cope with larger numbers (over 2 billion), so if you want the team to be limitless, set the value to -1 instead of something large
 #
 # Possible values: [-1, any positive whole number]
-allyLimit: 5
+allyLimit: -1
 
 # This is used to limit the length of a team name (if chat prefixes are enabled, this will stop the team names clogging up the chat)
 # - If this feature is unwanted, set the teamLimit to -1 and team name lengths will be unlimited
@@ -211,7 +211,7 @@ logTeamChat: true
 # - If this value is set to false, it is recommened you ammend the help messages relating to team chat which hint that /team chat will toggle instead of just being for /team chat <message>
 #
 # Possible values: [true, false]
-allowToggleTeamChat: true
+allowToggleTeamChat: false
 
 # This option is used to determine if the team name should be colored in correspondance to /team color whenever the team name is displayed within the plugin 
 # - If this is true, the color set will be displayed in /team info, wherever the placeholder %betterteams_name% is included etc. 
